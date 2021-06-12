@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/probly-search-demo/static/css/main.ddea1d15.chunk.css",
-    "main.js": "/probly-search-demo/static/js/main.b0b99107.chunk.js",
-    "main.js.map": "/probly-search-demo/static/js/main.b0b99107.chunk.js.map",
+    "main.js": "/probly-search-demo/static/js/main.e60183cb.chunk.js",
+    "main.js.map": "/probly-search-demo/static/js/main.e60183cb.chunk.js.map",
     "runtime-main.js": "/probly-search-demo/static/js/runtime-main.38fdb9db.js",
     "runtime-main.js.map": "/probly-search-demo/static/js/runtime-main.38fdb9db.js.map",
     "static/js/2.ce250293.chunk.js": "/probly-search-demo/static/js/2.ce250293.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.38fdb9db.js",
     "static/js/2.ce250293.chunk.js",
     "static/css/main.ddea1d15.chunk.css",
-    "static/js/main.b0b99107.chunk.js"
+    "static/js/main.e60183cb.chunk.js"
   ]
 }
