@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/probly-search-demo/static/css/main.870ac44c.chunk.css",
+    "main.js": "/probly-search-demo/static/js/main.05828146.chunk.js",
+    "main.js.map": "/probly-search-demo/static/js/main.05828146.chunk.js.map",
+    "runtime-main.js": "/probly-search-demo/static/js/runtime-main.38fdb9db.js",
+    "runtime-main.js.map": "/probly-search-demo/static/js/runtime-main.38fdb9db.js.map",
+    "static/js/2.ce250293.chunk.js": "/probly-search-demo/static/js/2.ce250293.chunk.js",
+    "static/js/2.ce250293.chunk.js.map": "/probly-search-demo/static/js/2.ce250293.chunk.js.map",
+    "static/js/3.2382fda8.chunk.js": "/probly-search-demo/static/js/3.2382fda8.chunk.js",
+    "f516ea32fa8e56593137.module.wasm": "/probly-search-demo/f516ea32fa8e56593137.module.wasm",
+    "static/js/3.2382fda8.chunk.js.map": "/probly-search-demo/static/js/3.2382fda8.chunk.js.map",
+    "static/js/4.726841cd.chunk.js": "/probly-search-demo/static/js/4.726841cd.chunk.js",
+    "static/js/4.726841cd.chunk.js.map": "/probly-search-demo/static/js/4.726841cd.chunk.js.map",
+    "index.html": "/probly-search-demo/index.html",
+    "static/css/main.870ac44c.chunk.css.map": "/probly-search-demo/static/css/main.870ac44c.chunk.css.map",
+    "static/js/2.ce250293.chunk.js.LICENSE.txt": "/probly-search-demo/static/js/2.ce250293.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.38fdb9db.js",
+    "static/js/2.ce250293.chunk.js",
+    "static/css/main.870ac44c.chunk.css",
+    "static/js/main.05828146.chunk.js"
+  ]
+}
