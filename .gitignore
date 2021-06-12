@@ -1,6 +1,6 @@
 #Rust things
-/target
-Cargo.lock
+**/target/
+**/Cargo.lock
 
 # Node things
 **/node_modules/
