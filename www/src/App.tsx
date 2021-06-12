@@ -149,7 +149,11 @@ function App() {
           </a>&nbsp;library
         </div>
         <div>
-          <span className="App-subheader">The library is written in Rust and is running entirely in your web browser using web assembly. Source code for this demo can be found [here](https://github.com/quantleaf/probly-search-demo)</span>
+          <span className="App-subheader">The library is written in Rust and is running entirely in your web browser using web assembly. Source code for this demo can be found <a
+            href="https://github.com/quantleaf/probly-search-demo"
+            target="_blank"
+            rel="noopener noreferrer"
+          >here</a></span>.
         </div>
       </header>
       <div style={{ display: 'flex', flexDirection: 'column', maxWidth: '500px', width: '100%', marginTop: '20px' }}>
