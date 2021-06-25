@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import './App.scss';
-import { ToggleButton, Button, Table, ButtonGroup } from 'react-bootstrap';
+import { ToggleButton, Table, ButtonGroup } from 'react-bootstrap';
 import * as Papa from "papaparse";
 
 const problySearch = import('@quantleaf/probly-search-demo');
@@ -68,16 +68,15 @@ class Loader extends React.Component<any, LoaderProps> {
     console.log('load once!')
     let c = this;
     problySearch.then((p) => {
-      Papa.parse('recipe_names.csv', { // Only one column, so a little overkill to do papaparse
+      Papa.parse(process.env.PUBLIC_URL +'/recipe_names.csv', { // Only one column, so a little overkill to do papaparse
         download: true,
+        delimiter: "\n", // Single column
         complete: async (results) => {
           c.setState({
             documentsAdded: c.state.documentsAdded,
             totalDocumentsToAdd: (results.data as any[]).length
           });
-
-          for (let i = 0; i < (results.data as any[]).length; i++) {
-
+          for (let i = 0; i < (results.data as any[]).length; i++) { 
             let name = (results.data as any[])[i][0] as any as string;
             p.save(name);
             if (i % 1000 === 0) // a trick to force rerender
@@ -173,7 +172,7 @@ function App() {
                     variant="secondary"
                     name="radio"
                     value={radio.value}
-                    checked={searchType == radio.value}
+                    checked={searchType === radio.value}
                     onChange={(e) => setSearchTypeValueWithReset(e.currentTarget.value as SearchType)}
                   >
                     <span>{radio.name}</span>
