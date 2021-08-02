@@ -41,7 +41,7 @@ fn text_accesor(d: &Doc) -> Option<&str> {
     Some(d.text.as_str())
 }
 
-fn filter(s: &String) -> String {
+fn filter(s: &str) -> String {
     s.to_owned()
 }
 
