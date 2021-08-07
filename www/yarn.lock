@@ -1528,10 +1528,10 @@
   resolved "https://registry.yarnpkg.com/@prichey/hello-wasm/-/hello-wasm-0.1.1.tgz#af8824bcd6f603f16f252429a80b365bc9454ba1"
   integrity sha512-2MOR1JERoi0Z5S6+NrqigWCBMFuHF8LgqaexlaqSA04ASk5FGl4n4M8Zf8nZ0DCT0xlPHYLe70mzEX+Wz+ZM4g==
 
-"@quantleaf/probly-search-demo@^0.1.10":
-  version "0.1.13"
-  resolved "https://registry.yarnpkg.com/@quantleaf/probly-search-demo/-/probly-search-demo-0.1.13.tgz#44f0ba423d1072bb58a3ae93b1cf691c13b028ae"
-  integrity sha512-dzM4NrZjYTzKNKCeJe4QRu5LxC0LoSNSjSXWkGI0rCc33JhCHWEX+OIVU2peXcyl56wX7bdemzGSh3Hgy5wghg==
+"@quantleaf/probly-search-demo@^0.1.14":
+  version "0.1.14"
+  resolved "https://registry.yarnpkg.com/@quantleaf/probly-search-demo/-/probly-search-demo-0.1.14.tgz#51dd63dab1e30213a8fab8cd53da7a7039f54868"
+  integrity sha512-nKf7z8pq5Zv7hp68oIKaVxiieo1vLyCpVsfce9wXTcnnmUE/HPwH7QuO5bGSSwrMV2YdkrDIj9/xq+U+ZqJJdA==
 
 "@restart/context@^2.1.4":
   version "2.1.4"
